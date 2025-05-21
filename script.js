@@ -58,7 +58,7 @@ supabase.auth.onAuthStateChange(async (event, session) => {
         window.location.href = 'sellerdashboard.html'
         break
       default:
-        window.location.href = 'userdashboard.html'
+        window.location.href = 'dashboard.html'
     }
   }
 })
